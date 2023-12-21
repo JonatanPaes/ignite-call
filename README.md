@@ -53,3 +53,4 @@ npm run dev
 # Tecnologias
 - [NextJS](https://nextjs.org/)
 - [TypeScript](https://github.com/microsoft/TypeScript)
+- [@jonatanpaes-ui/react](https://www.npmjs.com/package/@jonatanpaes-ui/react)

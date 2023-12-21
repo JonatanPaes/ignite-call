@@ -1,6 +1,7 @@
+import { Heading } from "@jonatanpaes-ui/react";
 
 export default function Home() {
   return (
-    <h1>Hello Ignite Call</h1>
+    <Heading>Hello Ignite Call</Heading>
   )
 }
