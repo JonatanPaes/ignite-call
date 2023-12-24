@@ -55,3 +55,4 @@ npm run dev
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [@jonatanpaes-ui/react](https://www.npmjs.com/package/@jonatanpaes-ui/react)
 - [Polished](https://polished.js.org/)
+- [Polished](https://react-hook-form.com/)
