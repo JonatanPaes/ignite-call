@@ -54,3 +54,4 @@ npm run dev
 - [NextJS](https://nextjs.org/)
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [@jonatanpaes-ui/react](https://www.npmjs.com/package/@jonatanpaes-ui/react)
+- [Polished](https://polished.js.org/)
