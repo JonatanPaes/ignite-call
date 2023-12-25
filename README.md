@@ -57,3 +57,4 @@ npm run dev
 - [Polished](https://polished.js.org/)
 - [React Hook Form](https://react-hook-form.com/)
 - [Zod](https://zod.dev/)
+- [Prisma](https://www.prisma.io/)
