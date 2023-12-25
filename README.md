@@ -58,3 +58,4 @@ npm run dev
 - [React Hook Form](https://react-hook-form.com/)
 - [Zod](https://zod.dev/)
 - [Prisma](https://www.prisma.io/)
+- [Axios](https://axios-http.com/)
