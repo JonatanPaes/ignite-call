@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 import { ArrowRight } from 'phosphor-react'
 import { useForm } from 'react-hook-form'
@@ -12,7 +13,6 @@ import {
 } from '@jonatanpaes-ui/react'
 
 import { Container, Form, FormError, Header } from './styles'
-import { useEffect } from 'react'
 
 const registerFormSchema = z.object({
   username: z
