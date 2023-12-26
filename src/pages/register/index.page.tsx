@@ -5,6 +5,7 @@ import { useForm } from 'react-hook-form'
 import { z } from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { api } from '@/lib/axios'
+import { AxiosError } from 'axios'
 import {
   Button,
   Heading,
@@ -57,6 +58,11 @@ export default function Register() {
         username,
       })
     } catch (err) {
+      if (err instanceof AxiosError && err?.response?.data.message) {
+        alert(err.response.data.message)
+        return
+      }
+
       console.log(err)
     }
   }
