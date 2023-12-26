@@ -52,6 +52,7 @@ npm run dev
 
 # Tecnologias
 - [NextJS](https://nextjs.org/)
+- [NextAuth.js](https://next-auth.js.org/)
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [@jonatanpaes-ui/react](https://www.npmjs.com/package/@jonatanpaes-ui/react)
 - [Polished](https://polished.js.org/)
