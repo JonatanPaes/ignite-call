@@ -59,3 +59,4 @@ npm run dev
 - [Zod](https://zod.dev/)
 - [Prisma](https://www.prisma.io/)
 - [Axios](https://axios-http.com/)
+- [Nookies](https://github.com/maticzav/nookies)
