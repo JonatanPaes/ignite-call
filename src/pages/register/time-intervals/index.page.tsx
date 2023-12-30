@@ -13,6 +13,7 @@ import {
 
 import { getWeekDays } from '@/utils/get-week-days'
 import { convertTimeStringToMinutes } from '@/utils/convert-time-string-to-minutes'
+import { api } from '@/lib/axios'
 
 import { Container, Header } from '../styles'
 import {
@@ -96,7 +97,11 @@ export default function TimeIntervals() {
 
   const intervals = watch('intervals')
 
-  async function handleSetTimeIntervals(data: TimeIntervalsFormOutput) {}
+  async function handleSetTimeIntervals(data: TimeIntervalsFormOutput) {
+    await api.post('/users/time-intervals', {
+      data,
+    })
+  }
 
   return (
     <Container>
