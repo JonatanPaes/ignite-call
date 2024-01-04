@@ -61,3 +61,4 @@ npm run dev
 - [Prisma](https://www.prisma.io/)
 - [Axios](https://axios-http.com/)
 - [Nookies](https://github.com/maticzav/nookies)
+- [Day.js](https://day.js.org)
