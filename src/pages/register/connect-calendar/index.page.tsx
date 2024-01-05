@@ -18,7 +18,7 @@ export default function ConnectCalendar() {
   }
 
   async function handleNavigateToNextStep() {
-    await router.push('/time-intervals')
+    await router.push('/register/time-intervals')
   }
 
   return (
