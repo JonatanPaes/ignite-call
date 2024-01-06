@@ -62,3 +62,4 @@ npm run dev
 - [Axios](https://axios-http.com/)
 - [Nookies](https://github.com/maticzav/nookies)
 - [Day.js](https://day.js.org)
+- [TanStack Query](https://tanstack.com/query/latest)
