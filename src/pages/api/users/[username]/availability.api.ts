@@ -3,7 +3,7 @@ import dayjs from 'dayjs'
 
 import { prisma } from '@/lib/prisma'
 
-export default async function handler(
+export default async function handle(
   req: NextApiRequest,
   res: NextApiResponse,
 ) {
