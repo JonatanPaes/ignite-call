@@ -66,7 +66,7 @@ export function CalendarStep() {
               return (
                 <TimePickerItem
                   key={hour}
-                  disabled={!availability.possibleTimes.includes(hour)}
+                  disabled={!availability.availableTimes.includes(hour)}
                 >
                   {String(hour).padStart(2, '0')}:00h
                 </TimePickerItem>
