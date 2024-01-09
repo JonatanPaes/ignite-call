@@ -63,3 +63,4 @@ npm run dev
 - [Nookies](https://github.com/maticzav/nookies)
 - [Day.js](https://day.js.org)
 - [TanStack Query](https://tanstack.com/query/latest)
+- [Google APIs](https://github.com/googleapis/google-api-nodejs-client#readme)
