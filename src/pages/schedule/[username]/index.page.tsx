@@ -1,4 +1,5 @@
 import { GetStaticPaths, GetStaticProps } from 'next'
+import { NextSeo } from 'next-seo'
 import { Avatar, Heading, Text } from '@jonatanpaes-ui/react'
 
 import { ScheduleForm } from './ScheduleForm'
@@ -16,16 +17,20 @@ interface ScheduleProps {
 
 export default function Schedule({ user }: ScheduleProps) {
   return (
-    <Container>
-      <UserHeader>
-        <Avatar src={user.avatarUrl} />
+    <>
+      <NextSeo title={`Agendar com ${user.name} | Ignite Call`} />
 
-        <Heading>{user.name}</Heading>
-        <Text>{user.bio}</Text>
-      </UserHeader>
+      <Container>
+        <UserHeader>
+          <Avatar src={user.avatarUrl} />
 
-      <ScheduleForm />
-    </Container>
+          <Heading>{user.name}</Heading>
+          <Text>{user.bio}</Text>
+        </UserHeader>
+
+        <ScheduleForm />
+      </Container>
+    </>
   )
 }
 

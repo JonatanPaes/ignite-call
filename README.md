@@ -64,3 +64,4 @@ npm run dev
 - [Day.js](https://day.js.org)
 - [TanStack Query](https://tanstack.com/query/latest)
 - [Google APIs](https://github.com/googleapis/google-api-nodejs-client#readme)
+- [Next Seo](https://github.com/garmeeh/next-seo#readme)
