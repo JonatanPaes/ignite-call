@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  Ignite Call
+  Ignite Call é uma aplicação de agendamento de chamadas e reuniões,proporcionando uma experiência eficiente e organizada para usuários integrada com Google calendar.
 </p>
 
 <p align="center">
@@ -43,11 +43,18 @@ npm install
 Para executar o projeto
 
 ```sh
+# Copiar o arquivo com os dados de conexão e demais variáveis ambiente
+cp .env.example .env
+
+# Rodar as migrations do prisma
+npx prisma migrate dev
+
+# Executar a aplicação
 npm run dev
 ```
 
 <p align="center">
-  <img alt="Demonstration web" src="./preview/" width="100%" height="100%" />
+  <img alt="Demonstration web" src="./preview/ignite-call.gif" width="100%" height="100%" />
 </p>
 
 # Tecnologias
